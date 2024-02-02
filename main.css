@@ -1,3 +1,31 @@
 body {
-  background-color: aliceblue;
+  background-image: url("assets/benderbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  color: rgb(217, 191, 62);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+h1, h5 {
+  color: rgb(217, 191, 62);
+  text-shadow: 1px 1px 2px black;
+}
+
+button {
+  background-color: rgb(217, 191, 62);
+  width: 150px;
+  color: rgb(99, 9, 9);
 }
